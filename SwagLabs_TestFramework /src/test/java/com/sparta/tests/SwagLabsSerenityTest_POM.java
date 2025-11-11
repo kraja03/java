@@ -2,11 +2,8 @@ package com.sparta.tests;
 
 import com.sparta.pages.HomePage;
 import com.sparta.pages.InventoryPage;
-import com.sparta.pages.CartPage;
 import net.serenitybdd.junit5.SerenityJUnit5Extension;
-import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.Managed;
-import org.assertj.core.api.AbstractAssert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -19,7 +16,6 @@ public class SwagLabsSerenityTest_POM {
     @Managed
     HomePage homePage;
     InventoryPage inventoryPage;
-    CartPage cartPage;
 
     @Test
     @DisplayName("Given I enter a valid username and password, when I click login, then I should land on the inventory page")
