@@ -70,7 +70,7 @@ public class DemoQaTests {
         Assertions.assertEquals("You clicked a button", alert.getText());
         alert.accept();
     }
-//    On button click, confirm box will appear - cancel
+    // On button click, confirm box will appear - cancel
     @Test
     @DisplayName("Given I click the confirm button, when the confirm appears, then I can cancel it")
     public void confirmAlertCancelTest() {
